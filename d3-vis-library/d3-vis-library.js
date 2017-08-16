@@ -38,6 +38,14 @@ define(["jquery", "./js/d3.min", "./js/senseD3utils", "./js/senseUtils", "./libr
 					sorting: {
 						uses: "sorting"
 					},
+					addons: {
+						uses: "addons",
+						items: {
+							dataHandling: {
+								uses: "dataHandling"
+							}
+						}
+					},
 					settings: {
 						uses: "settings",
 						items: {
